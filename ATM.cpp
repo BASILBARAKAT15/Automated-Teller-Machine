@@ -14,12 +14,12 @@ int main()
         for ( i=0; i < 3; i++) {
             printf("ENTER YOUR SECRET PIN_NUMBER:");
             scanf("%d", &PIN_NUMBER);
-            if (PIN_NUMBER == 12217132)break;
-            if (PIN_NUMBER != 12217132)printf("\nPLEASE ENTER VALID PASSWORD\n");
+            if (PIN_NUMBER == 1221)break;
+            if (PIN_NUMBER != 1221)printf("\nPLEASE ENTER VALID PASSWORD\n");
             if (i == 3)printf("THANK YOU FOR USING ATM");
         }
         //////////////////////////////////////////////////////////////////////////////
-        if (i < 3 || PIN_NUMBER == 12217132) {
+        if (i < 3 || PIN_NUMBER == 1221) {
             int L;
             printf("\n************welcome to ATM service*************\n");
             printf("1.withdrawal cash\n2.Deposit cash\n3.chech Balance\n4.curreny Exchange\n5.Exit\n");
