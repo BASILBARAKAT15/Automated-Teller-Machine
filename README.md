@@ -1,58 +1,45 @@
-Automated Teller Machine (ATM) Simulation
+# Automated Teller Machine (ATM) Simulation
 
-Description
-
+## Description
 This project is a simple ATM simulation program written in C++. It allows users to perform basic banking transactions such as checking their balance, withdrawing money, and depositing money.
 
-Features
+## Features
+- Check account balance
+- Withdraw money
+- Deposit money
+- Secure authentication system
 
-Check account balance
+## Technologies Used
+- C++
 
-Withdraw money
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/BASILBARAKAT15/Automated-Teller-Machine.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd Automated-Teller-Machine
+   ```
+3. Compile the C++ program:
+   ```sh
+   g++ ATM.cpp -o ATM
+   ```
+4. Run the program:
+   ```sh
+   ./ATM
+   ```
 
-Deposit money
+## Usage
+1. Launch the program.
+2. Log in with your credentials.
+3. Choose an operation (Check balance, Withdraw, Deposit).
+4. Follow the on-screen instructions.
+5. Exit the program when finished.
 
-Secure authentication system
-
-Technologies Used
-
-C++
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/BASILBARAKAT15/Automated-Teller-Machine.git
-
-Navigate to the project directory:
-
-cd Automated-Teller-Machine
-
-Compile the C++ program:
-
-g++ ATM.cpp -o ATM
-
-Run the program:
-
-./ATM
-
-Usage
-
-Launch the program.
-
-Log in with your credentials.
-
-Choose an operation (Check balance, Withdraw, Deposit).
-
-Follow the on-screen instructions.
-
-Exit the program when finished.
-
-License
-
+## License
 This project is licensed under the MIT License.
 
-Author
-
-BASILBARAKAT
+## Author
+[BASILBARAKAT15](https://github.com/BASILBARAKAT15)
 
